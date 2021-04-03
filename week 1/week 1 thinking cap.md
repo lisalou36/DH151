@@ -27,6 +27,6 @@ I find this map highly effective for several reasons:
 In addition to the digitized historical maps, it also works in conjunction with Leaflet, Mapbox, and OpenStreetMap.
 
 # What would I change?
-Honestly I find this website already quite fantastic, it lays out the historical sources as they are, and they speak for themselves, powerfully.
+Honestly I find this website already quite fantastic, it lays out the historical sources as they are, and they speak for themselves, powerfully. It also reminds me of Stanford's David Rumsey map collection website, one of my favorite ever uses of historical maps on the web!
 This might make the map too complicated, but I would be interested in seeing a toggle option that allows the viewer to see the same map quadrants but with contemporary census data
   such as current poverty levels and health data. If the researcher could toggle through various decades, that would be even better to illustrate the impact of systemic racism.
