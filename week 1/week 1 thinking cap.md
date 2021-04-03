@@ -4,7 +4,7 @@ https://dsl.richmond.edu/panorama/redlining/#loc=4/41.212/-100.063&adviewer=side
 
 ![Screen Shot 2021-04-02 at 5 35 38 PM](https://user-images.githubusercontent.com/81833154/113463293-e12de600-93d9-11eb-8783-4a1549b0df0b.png)
 
-# The Agenda of this Site:
+# The agenda of this site:
 This site is an onine project that digitized the maps created by the Home Owners Loan Corporation in the 1930s. 
 This project is now infamous for its practice of "redlining" that drastically and horrifically shaped the lives of POC in the US.
 This website brings to life and democratizes that information, making it real to contemporary viewers as Google Maps.
