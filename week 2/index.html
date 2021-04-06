@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Southwest Roadtrip through the Elements</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+	<div class="header">
+		Southwest Roadtrip through the Elements
+	</div>
+	<div class="sidebar">
+		<span style="text-align: center">
+			<b>Favorite Places</b>
+			<p>
+				Petrified Forest National Park
+			</p>
+			<p>
+				Arches National Park
+			</p>
+			<p>
+				Bonneville Salt Flats
+			</p>
+			<p>
+				Zion National Park
+			</p>
+			<p>
+				Valley of Fire State Park
+			</p>
+		</span style="text-align: center">
+			<p>
+				These five sites were my favorites in a two week long roadtrip I took with a friend. This is one of the most memorable trips I have ever been on, not only because of the gorgeous locations, but also because we experienced a completely bonkers weather whiplash! We saw extreme heat, rain, snow, and hurricane level winds all within a few days of each other. I loved it.
+			</p>
+		
+	</div>
+	<div class="content">
+		<div id="map"></div>
+	</div>
+
+
+
+	<script>
+		var map = L.map('map').setView([35.0517,-109.4823], 5);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		let data = [
+			{
+				'title': 'Petrified Forest National Park',
+				'lat': 35.0517,
+				'lon': -109.4823
+			},
+			{
+				'title':'Arches National Park',
+				'lat': 38.68333,
+				'lon': -109.56667
+			},
+			{
+				'title':'Bonneville Salt Flats',
+				'lat': 40.799722,
+				'lon': -113.800
+			},
+			{
+				'title':'Zion National Park',
+				'lat': 37.18,
+				'lon': -113.00
+			},
+			{
+				'title':'Valley of Fire State Park',
+				'lat': 36.2722,
+				'lon': -114.3159
+			}
+		]
+
+			
+		var marker = L.marker([38.68333,-109.56667]).addTo(map)
+				.bindPopup('Arches National Park: The temperature went from 100 degrees and sunny to 50 degrees and rainy over night. We slept in the car.')
+				.openPopup();
+		var marker = L.marker([40.799722,-113.800]).addTo(map)
+				.bindPopup('Bonneville Salt Flats: Drove 3 hours north to escape the rain, only to be met with light snow and 80mph winds!')
+				.openPopup();
+		var marker = L.marker([37.18,-113.0]).addTo(map)
+				.bindPopup('Zion National Park: Weather finally steadied to a cool 75 degrees for a perfect backpacking expedition')
+				.openPopup();
+		var marker = L.marker([36.2722,-114.3159]).addTo(map)
+				.bindPopup('Valley of Fire State Park: Aaannndddd back to 100 degrees!')
+				.openPopup();
+		var marker = L.marker([35.088056,-109.806389]).addTo(map)
+				.bindPopup('Petrified Forest National Park: Camped in 85 degree weather (at night)')
+				.openPopup();
+		
+
+
+	</script>
+
+
+</body>
+</html>
