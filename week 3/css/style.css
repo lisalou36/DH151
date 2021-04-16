@@ -1,0 +1,62 @@
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+}
+
+#map {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 400px 1fr;
+	grid-template-areas: 
+	"header header"
+	"sidebar content";
+}
+
+.header {
+	grid-area: header;
+	padding:10px;
+	background-color: rgb(202, 103, 45);
+	color: white;
+	font-size: 2em;
+	font-family: Papyrus;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	padding:10px;
+	background-color: rgb(49, 175, 192);
+	color:rgb(255, 255, 255)
+}
+
+.content {
+	grid-area: content;
+}
+
+.sidebar-item {
+    padding: 10px; /* adds inner padding */
+    background: rgb(202, 103, 45); /* background color */
+    border: 3px solid rgb(0, 0, 0); /* border width, style, and color */
+    margin: 10px; /* outer padding */
+	color:rgb(255, 255, 255) /* text color */
+	cursor: pointer; /* change cursor to hand on hover */
+	font-family: Papyrus;
+}
+
+.sidebar-item:hover {
+	box-shadow:  1px 1px 10px rgba(167, 101, 3, 0.2);
+	background-color: hsl(36, 94%, 50%);
+	cursor: pointer;
+}
+
+p {
+	font-family: Papyrus;
+   	}
+
+h3 {
+	font-family: Papyrus;
+}
