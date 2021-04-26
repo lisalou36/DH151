@@ -23,7 +23,7 @@ function createMap(lat,lon,zl){
 	}).addTo(map);
 
 	//Highly Toxic Circles
-	let hiTox = []
+	
 	var circle = L.circle([36.77218, -121.7866], {
 		color: 'red',
 		fillColor: 'red',
@@ -110,16 +110,24 @@ function mapCSV(data){
 
 		// add marker to featuregroup		
 		markers.addLayer(marker)
-
+		
 		// add entry to sidebar: I've spent several hours trying to get these items to be clickable and nothing has worked. Ask Yoh in office hours to help figure out.
-        $('.sidebar').append(`<div class="sidebar-item" onmouseover="panToImage(${index})">${item.StationName}</div>`)
-
+        $('.sidebar').append(`<div class="sidebar-item" onClick="panToImage(${index})">${item.StationName}</div>`)
+		
+		
 	})
-
+	
 	// add featuregroup to map
 	markers.addTo(map)
 
 	// fit markers to map
 	map.fitBounds(markers.getBounds())
 
+}
+
+function panToImage(index) { 
+	  // zoom to level
+	map.setZoom(10);
+	  // pan to the marker    
+	map.panTo(markers.getLayers()[index]._latlng);
 }

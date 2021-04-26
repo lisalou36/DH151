@@ -26,7 +26,8 @@ body {
 	color: rgb(238, 200, 74);
 	font-family:monospace;
 	font-size: 2em;
-	border-radius: 5mm;
+	border-bottom-color: rgb(185, 255, 105);
+	border-top: lavenderblush;
 	border-style:groove;
 }
 
@@ -38,7 +39,6 @@ body {
 	font-size:5mm;
 	background-color: rgb(36, 192, 127);
 	overflow: auto;
-	border-radius: 5mm;
 	border-style:groove;
 }
 
@@ -55,7 +55,6 @@ body {
 
 .content {
 	grid-area: content;
-	border-radius: 5mm;
 	border-style:groove;
 }
 
