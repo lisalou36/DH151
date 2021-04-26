@@ -1,0 +1,71 @@
+body,html {
+	margin:0;
+	height:100%;
+	width:100%;
+}
+
+#map {
+	height: 100%;
+	color:salmon;
+}
+
+body {
+	display: grid;
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 35% 55%;
+	grid-template-areas: 
+	"header header"
+	"sidebar content"
+	"footer footer";
+}
+
+.header {
+	grid-area: header;
+	padding:8px;
+	background-color: rgb(76, 173, 177);
+	color: rgb(238, 200, 74);
+	font-family:monospace;
+	font-size: 2em;
+	border-radius: 5mm;
+	border-style:groove;
+}
+
+.sidebar {
+	color: rgb(107, 99, 27);
+	grid-area: sidebar;
+	padding:5px;
+	font-family:monospace;
+	font-size:5mm;
+	background-color: rgb(36, 192, 127);
+	overflow: auto;
+	border-radius: 5mm;
+	border-style:groove;
+}
+
+.sidebar-item {
+    padding: 10px; /* adds inner padding */
+    background: rgb(253, 219, 107); /* background color */
+    border: 3px solid rgb(0, 0, 0); /* border width, style, and color */
+    margin: 10px; /* outer padding */
+	color:rgb(255, 255, 255) /* text color */
+	cursor: pointer; /* change cursor to hand on hover */
+	border-radius: 5mm;
+	border-style:groove;
+}
+
+.content {
+	grid-area: content;
+	border-radius: 5mm;
+	border-style:groove;
+}
+
+.footer {
+	grid-area: footer;
+	padding:5px;
+	background-color: rgb(226, 172, 57);
+	color:rgb(238, 200, 74);
+}
+
+.markers {
+	font-family:monospace;
+}

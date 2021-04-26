@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Toxicity in California Streams</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- papaparse -->
+    <script src="js/papaparse.min.js"></script>
+
+	
+
+</head>
+<body>
+
+	<div class="header">
+		Toxicity in California Streams, 2015
+	</div>
+	<div class="sidebar">
+		Hover over a dot to see:
+		<ul>
+			<li>the name of the Station,</li>
+			<li>the year the sample was taken,</li>
+			<li>the stream's toxocity category,</li>
+			<li>the categorization of the land use,</li>
+			<li>and the percent of urban land used within a 5 km radius.</li>
+		</ul>
+		
+		<p>Samples' toxicity levels are designated as:
+			<ul>
+				<li><b>Non-Toxic</b></li>
+				<li><b>Some Toxicity</b> = significantly different from control using TST</li>
+				<li><b>Moderately Toxic</b> = having had one highly toxic sample in five years</li>
+				<li><b>Highly Toxic</b> = significantly different and having a response less than the high toxicity threshold of 38.6% survival.</li>
+			</ul>
+			</p>
+		
+		<p>
+			Land use qualifications are defined as:
+			<ul>
+				<li><b>"urban"</b> if they had more than 25% urban spread within 5 km</li>
+				<li><b>"agricultural"</b> if they had more than 50% spread of cultivated crops</li>
+				<li><b>"other"</b> if neither urban nor agricultural</li>
+			</ul>
+		</p>
+		<p>
+			----------------------------
+		</p>
+			
+			
+		 
+	</div>
+	<div class="content">
+		<div id="map"></div>
+	</div>
+	<div class="footer">
+		Source: <a href="https://data.ca.gov/dataset/surface-water-2017-california-water-quality-status-report/resource/3c17868b-df1a-4993-b6b2-5b53d554416d?inner_span=True">California Open Data Portal</a>
+	</div>
+
+	<script src="js/map.js"></script>
+
+</body>
+</html>

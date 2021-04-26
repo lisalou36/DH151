@@ -1,0 +1,101 @@
+StationID,StationName,Latitude,Longitude,Year,SumPyrethroid,Survival,ToxicUnit,ToxCategory,LandUse,Urban5k,Ag5k,Other5k
+103SM1009,Smith River at Sarina Road,41.9134,-124.17162,2015,0,108.45,0,Some Toxicity,Urban,29.42,17.22,53.36
+105KLAMKK,Klamath River at Kamp Klamath,41.5171,-124.03896,2015,0,111.27,0,Non-Toxic,Other,7.7,1.71,90.59
+109MAD101,Mad River upstream Hwy 101,40.91763,-124.08946,2015,0,111.27,0,Some Toxicity,Other,22.36,3.81,73.83
+111EELFRN,Eel River at Fernbridge,40.61129,-124.20407,2015,0,101.41,0,Some Toxicity,Other,16.93,17.94,65.13
+111SF0933,Eel River - South Fork at Myers Flat,40.26178,-123.88023,2015,1.08,94.37,0.01,Some Toxicity,Other,5.42,0,94.58
+113NA3269,Navarro River at Dimmick State Park,39.15911,-123.63861,2015,,,,Some Toxicity,Other,4.76,0,95.24
+114LAGWOH,Laguna de Santa Rosa upstream of Wohler Street Bridge,38.49254,-122.88327,2015,,,,Some Toxicity,Other,8.39,45.33,46.27
+114RRDSDM,Russian River downstream Duncan Mills,38.4475,-123.05583,2015,0,111.27,0,Non-Toxic,Other,8.39,0,90.58
+201LAG125,Lagunitas Creek @ Coast Guard Station,38.06915,-122.79809,2015,0,98.67,0,Non-Toxic,Other,5.38,0,94.62
+201WLK160,Walker Creek Ranch,38.17545,-122.82044,2015,0,25.33,0,Moderately Toxic,Other,1.56,0,98.44
+204ALA020,Alameda Creek E. of Alvarado Blvd,37.582,-122.052,2015,3.956,102.67,0.34,Non-Toxic,Urban,91.04,0,8.96
+204SLE030,San Leandro Creek at Empire Road,37.72556,-122.18361,2015,35,85.33,0.45,Non-Toxic,Urban,98.37,0,1.63
+204SMA020,San Mateo Creek at Gateway Park,37.57028,-122.31861,2015,20.565,98.68,0.61,Non-Toxic,Urban,89.17,0,10.83
+205COY060,Coyote Creek at Montague,37.3954,-121.91485,2015,34.08,93.42,1.16,Non-Toxic,Urban,100,0,0
+205GUA020,Guadalupe Creek @ USGS Gaging Station 11169025,37.37389,-121.93194,2015,32.252,97.37,0.74,Some Toxicity,Urban,99.81,0.11,0.07
+206SON010,Sonoma Creek at Hwy 121 bridge,38.2405,-122.45127,2015,,,,Non-Toxic,Other,16.97,37.5,45.54
+207KIR020,Kirker Creek at Floodway,38.0165,-121.83881,2015,14.569,92.11,1.19,Moderately Toxic,Urban,81.68,0,18.32
+207LAU020,Laurel Creek @ Pintail Drive,38.2483,-122.00668,2015,3.097,100,0.38,Non-Toxic,Urban,58.03,5.49,36.48
+207WAL020,Walnut Creek @ Concord Ave O.C.,37.98063,-122.0516,2015,4.458,105.26,0.53,Some Toxicity,Urban,98.33,0,1.67
+304SLRWAT,San Lorenzo River below Water Street,36.97685,-122.0239,2015,0.351,105.63,0.04,Non-Toxic,Urban,55.33,0.93,43.75
+304SOK,Soquel Creek at Knob Hill Parking Lot,36.98014,-121.95624,2015,1.37,111.27,0.14,Non-Toxic,Urban,64.88,0,35.12
+305THU,Pajaro River at Thurwachter Bridge,36.87977,-121.79195,2015,7.294,111.27,0.3,Non-Toxic,Urban/Ag,29.94,58.08,11.98
+307CML,Carmel River at Highway 1,36.53638,-121.91168,2015,59.725,104.23,2.07,Non-Toxic,Urban,28.06,2.4,69.54
+309DAV,Salinas River at Davis Road,36.64681,-121.70139,2015,37.241,102.82,0.9,Non-Toxic,Other,21.02,23.57,55.41
+309TDW,Tembladero Slough at Monterey Dunes Way,36.77218,-121.7866,2015,24.781,12.68,1.64,Highly Toxic,Urban/Ag,26.09,73.65,0.27
+310ARG,Arroyo Grande Creek at 22nd Street,35.09521,-120.60625,2015,4.539,100,0.19,Some Toxicity,Urban,48.13,25.25,26.62
+310SLB,San Luis Obispo Creek at San Luis Bay Drive,35.18832,-120.71792,2015,1.21,97.44,0.06,Non-Toxic,Other,10.76,3.97,85.27
+312SMA,Santa Maria River above Estuary,34.96046,-120.64256,2015,10.114,101.32,0.4,Moderately Toxic,Other,5.09,29.51,65.4
+313SAI,San Antonio Creek at San Antonio Rd West,34.78233,-120.52997,2015,,,,Non-Toxic,Other,5.92,0.88,93.2
+314SYN,Santa Ynez River at 13th Street,34.67677,-120.55442,2015,0.997,103.95,0.3,Non-Toxic,Other,19.57,40.29,40.14
+315ATA,Atascadero Creek at Ward Drive,34.42345,-119.81929,2015,0.908,94.87,0.2,Non-Toxic,Urban,81.02,2.48,16.5
+315MIS,Mission Creek at Montecito Street,34.41304,-119.69401,2015,30.516,94.87,0.48,Non-Toxic,Urban,82.12,0,17.88
+402VRB0xx,Ventura River Bio 0,34.28173,-119.30669,2015,24.18,87.01,12.87,Non-Toxic,Urban,25.82,1.04,73.15
+403STCBQT,Bouquet Canyon Creek,34.42782,-118.54022,2015,671.66,0,12.87,Highly Toxic,Urban,63.45,1.12,35.43
+403STCEST,Santa Clara River Estuary,34.23557,-119.21674,2015,6.05,89.74,0.31,Non-Toxic,Urban,61.29,20.83,17.89
+403STCSSP,Sespe Creek,34.39414,-118.94096,2015,,,,Non-Toxic,Other,13.02,22.12,64.87
+404BLNAxx,Ballona Creek Downstream of Sawtelle (Centinella),33.986,-118.417,2015,305.53,8,3.52,Highly Toxic,Urban,95.21,0,4.79
+405SGRA2x,San Gabriel River RA-2,33.78708,-118.09367,2015,27.217,77.33,1.98,Moderately Toxic,Urban,97.63,0,2.37
+408CGCS06,"Calleguas Creek Below Camrosa WWTP, Site 6",34.17978,-119.04053,2015,24.418,59.74,2.15,Some Toxicity,Urban,37.11,25.73,37.16
+412LARWxx,Los Angeles River at Willow,33.8049,-118.205,2015,117.95,72,0.98,Moderately Toxic,Urban,94.86,0,5.14
+504BCHROS,Big Chico Creek @ Rose Ave,39.72716,-121.86308,2015,28.445,93.24,0.43,Non-Toxic,Urban,85.94,8.16,5.91
+504SACHMN,Sac R @ Hamilton City,39.7511,-121.99798,2015,4.057,95.95,0.48,Non-Toxic,Agriculture,4.5,71.17,24.33
+508SACBLF,Sacramento River @ Balls Ferry,40.41762,-122.19334,2015,1.214,101.35,0.13,Non-Toxic,Other,3.22,8.19,88.59
+510LSAC08,Clarksburg Marina,38.38312,-121.52057,2015,0.601,106.76,0.22,Non-Toxic,Agriculture,9.98,71.5,18.53
+511CAC113,Cache Creek @ Hwy 113,38.72066,-121.7643,2015,0.347,111.76,0.1,Non-Toxic,Agriculture,11.5,75.89,12.61
+515SACKNK,Sacramento Slough @ Karnak,38.78456,-121.65439,2015,1.577,108.82,0.17,Non-Toxic,Agriculture,6.15,89.67,4.18
+515YBAMVL,Yuba R @ Maryville,39.13421,-121.5929,2015,0.128,113.24,0.06,Non-Toxic,Urban,46.41,37.69,15.9
+519AMNDVY,American R @ Discovery Park,38.60094,-121.5055,2015,0.488,108.82,0.13,Non-Toxic,Urban,72.99,5.42,21.6
+519BERBRY,Bear R @ Berry Rd.,38.96175,-121.54677,2015,0.456,111.76,0.09,Non-Toxic,Agriculture,12.11,62.8,25.09
+519FTRNCS,Feather R @ Nicolaus,38.89746,-121.5905,2015,0.97,111.76,0.31,Non-Toxic,Agriculture,5.81,58.84,35.35
+520BUTPAS,Butte Slough upsteam of Pass Road Bridge,39.18786,-121.90919,2015,0.555,110.29,0.08,Non-Toxic,Agriculture,2.44,63.92,33.64
+520CBDKLU,Colusa Basin Drain @ Knights Landing Upstream,38.79923,-121.72504,2015,1.644,114.71,0.31,Non-Toxic,Agriculture,6.63,89.95,3.42
+520SACLSA,Sacramento River at Colusa near Bridge Street,39.21415,-122.00031,2015,0.457,113.24,0.16,Non-Toxic,Other,23.04,35.36,41.6
+526PRFALR,Pit River at Cassel-Fall River Road,40.99795,-121.43507,2015,0,105.41,0,Non-Toxic,Other,5.92,39.07,55.02
+531SAC001,Cosumnes River at Twin Cities Road,38.29083,-121.37583,2015,0.464,105.41,0.02,Non-Toxic,Other,0.66,45.03,54.31
+532AMA002,Sutter Creek @ Hwy 49,38.3925,-120.80139,2015,,,,Non-Toxic,Other,8.92,0.04,91.03
+535MER007,Bear Creek near Bert Crane Road,37.25556,-120.65194,2015,,,,Moderately Toxic,Agriculture,2.32,88.54,9.14
+535MER546,Merced River @ River Road,37.35041,-120.96223,2015,,,,Non-Toxic,Agriculture,4.78,78.26,16.96
+535STC206,Dry Creek @ La Loma Rd.,37.64568,-120.98081,2015,102.181,63.51,2.66,Some Toxicity,Urban,94.86,0.11,5.03
+535STC210,Tuolumne R. @ Old LaGrange Bridge,37.66667,-120.46667,2015,,,,Non-Toxic,Other,2.67,0,97.33
+535STC501,TID 5 Harding Drain @ Carpenter Road,37.46444,-121.03028,2015,,,,Non-Toxic,Agriculture,6.06,90.65,3.29
+535STC504,SJR @ Crows Landing,37.43323,-121.01597,2015,,,,Non-Toxic,Agriculture,4.53,83.31,12.16
+541MER522,San Joaquin River at Lander Avenue,37.29528,-120.85028,2015,,,,Non-Toxic,Other,5.8,47.56,46.64
+541MER542,Mud Slough downstream of San Luis Drain,37.26389,-120.90611,2015,,,,Non-Toxic,Other,2.72,3.14,94.14
+541MERECY,Marsh Creek at East Cypress Crossing,37.99107,-121.69626,2015,42.759,35.53,3.81,Highly Toxic,Urban,75.03,23.32,1.65
+541SJC501,San Joaquin River at Airport Way near Vernalis,37.67556,-121.26417,2015,,,,Non-Toxic,Agriculture,6.42,77.93,15.65
+541STC019,Orestimba Creek @ River Road,37.41389,-121.01417,2015,3.037,98.65,0.65,Moderately Toxic,Agriculture,7.02,91.79,1.2
+541STC516,Del Puerto Creek at Vineyard Avenue,37.52139,-121.14861,2015,6.766,91.89,1.35,Highly Toxic,Agriculture,9.67,89.7,0.63
+544SAC002,Mokelumne River at New Hope Road,38.23611,-121.41889,2015,,,,Non-Toxic,Agriculture,0.78,90.81,8.41
+551LKI040,Kings River - S. Fork,36.2558,-119.8551,2015,,,,Non-Toxic,Agriculture,15.55,79.43,5.03
+554SKR010,South Fork Kern River @ Fay Ranch Road,35.6724,-118.28996,2015,,,,Non-Toxic,Other,1.17,0,98.83
+558CCR010,Cross Creek - Rd. 60 and Hwy 99,36.40437,-119.45697,2015,,,,Non-Toxic,Agriculture,2.09,77.73,20.18
+558PKC005,Packwood Creek in pond upstream of Road 94,36.27894,-119.35971,2015,,,,Non-Toxic,Urban/Ag,44.42,53.7,1.89
+558TUR090,Tule River - Rd. 64 bridge,36.08837,-119.42891,2015,,,,Moderately Toxic,Agriculture,2.27,96.23,1.5
+603BSP002,Bishop Cr Canal at East Line St,37.36156,-118.38606,2015,0.399,110.77,0.02,Non-Toxic,Urban,34.55,44,21.44
+603LOWSED,Lower Owens River near mouth,36.5498,-117.98175,2015,,,,Non-Toxic,Other,1.14,0,98.86
+628DEPSED,Deep Creek above Warm Springs,34.34143,-117.17791,2015,,,,Non-Toxic,Other,0.26,0,99.74
+631WWKLAR,West Walker River at Larson Lane,38.54679,-119.49494,2015,0,112.31,0,Non-Toxic,Other,3.67,7.44,88.9
+633WCRSED,West Fork Carson River at Paynesville,38.80885,-119.77725,2015,0,113.85,0,Non-Toxic,Other,7.32,0,92.68
+634UTRSED,Upper Truckee River near inlet to Lake Tahoe,38.93439,-120.00035,2015,0.154,115.38,0.01,Non-Toxic,Urban,41.27,0,58.73
+635MARSED,Martis Creek near mouth,39.30211,-120.12135,2015,0,116.92,0,Non-Toxic,Other,15.73,0,84.27
+635TRKSED,Lower Truckee River near CA/NV state line,39.46477,-120.0032,2015,0,113.85,0,Non-Toxic,Other,2.49,0,97.51
+635TROSED,Trout Creek (Truckee) near mouth,39.3324,-120.16558,2015,0.061,112.31,0,Non-Toxic,Urban,25.47,0,74.53
+637SUS001,Susan River nr Litchfield,40.37771,-120.39514,2015,0,106.76,0,Non-Toxic,Other,4.18,11.58,84.24
+719CVSCOT,Coachella Valley Stormwater Channel Outlet,33.52444,-116.07778,2015,,,,Non-Toxic,Other,6.9,28.01,65.09
+723ARGRB1,Alamo River Outlet,33.1992,-115.5971,2015,1.662,104,0.22,Moderately Toxic,Other,5.23,46.33,48.43
+723NROTWM,New River Outlet,33.10472,-115.66361,2015,7.339,93,0.55,Moderately Toxic,Agriculture,5.32,88.5,6.17
+801CCPT12,Chino Creek (San Antonio Ck) at Euclid/Hwy 83 bridge,33.94016,-117.65427,2015,51.215,73.33,2.41,Moderately Toxic,Urban,53.79,19.39,26.81
+801SARVRx,Santa Ana River at Prado Basin Park Rd,33.92403,-117.59765,2015,,,,Non-Toxic,Urban,62.14,6.78,31.08
+801SDCxxx,San Diego Creek at Campus,33.65556,-117.84472,2015,81.47,70.67,2.42,Moderately Toxic,Urban,90.84,0.09,9.06
+802SJCREF,San Jacinto River - Reference Site,33.737,-116.8263,2015,,,,Non-Toxic,Other,3.54,0.15,96.31
+901SJSJC9,San Juan Creek 9,33.48443,-117.67577,2015,115.469,41.33,4,Some Toxicity,Urban,78.81,0,21.19
+902SSMR07,Santa Margarita at Basilone Rd,33.31117,-117.34538,2015,0.104,100,0.07,Non-Toxic,Urban,36.94,0,63.06
+903SLRRBB,San Luis Rey River at Benet Road Bridge,33.22036,-117.35821,2015,2.233,102.63,0.06,Non-Toxic,Urban,66,0.33,33.67
+904ESCOxx,Escondido Creek at Camino del Norte,33.04829,-117.22602,2015,46.944,86.84,1.01,Some Toxicity,Urban,56.73,0,43.27
+905SDSDQ9,San Dieguito River 9,32.97877,-117.23506,2015,0.349,89.47,0.04,Moderately Toxic,Urban,83.04,4.84,12.12
+906LPLPC6,Los Penasquitos Creek 6,32.9072,-117.23055,2015,71.363,80.26,1.16,Non-Toxic,Urban,66.01,0,33.99
+907SDRWAR,San Diego River at Ward Road,32.78032,-117.11046,2015,41.603,96.05,0.54,Non-Toxic,Urban,86.85,0,13.15
+909SWRWSx,Sweetwater River at Willow Street,32.65898,-117.04231,2015,39.992,93.42,1.2,Some Toxicity,Urban,86.47,0,13.53
+911TJHRxx,Tijuana River at Hollister Rd,32.55142,-117.08394,2015,390.722,2.63,15.28,Highly Toxic,Urban,71.5,11.57,16.92
